@@ -1,12 +1,10 @@
 #!/bin/bash
 # ============================================================
 # Script 4: Log File Analyzer
-# Author: Sachin Parmar | Course: Open Source Software
+# Course: Open Source Software
 # Purpose: Count keyword occurrences in a log file and
 #          display the last 5 matching lines.
 # Usage  : ./script4_log_analyzer.sh <logfile> [keyword]
-# Example: ./script4_log_analyzer.sh /var/log/syslog error
-# ============================================================
 
 # --- Handle command-line arguments ---
 LOGFILE=$1                     # First argument: path to log file

@@ -3,8 +3,8 @@
  
 | Field | Details |
 |-------|---------|
-| **Student Name** | Sachin Parmar |
-| **Registration Number** | 24BCE10452 |
+| **Student Name** | Divyam Gulgulia |
+| **Registration Number** | 24BCE11426 |
 | **Course** | Open Source Software (OSS NGMC) |
 | **Chosen Software** | Python Programming Language |
 | **License** | PSF License v2 |
@@ -16,15 +16,12 @@
 ```
 oss-audit-[rollnumber]/
 ├── README.md
-├── script1_system_identity.sh
-├── script2_foss_inspector.sh
-├── script3_disk_auditor.sh
+├── script1-system_identity.sh
+├── script2-foss_inspector.sh
+├── script3-disk_auditor.sh
 ├── script4_log_analyzer.sh
 └── script5_manifesto.sh
 ```
- 
----
- 
 ## Script Descriptions
  
 ### Script 1 — System Identity Report (`script1_system_identity.sh`)
@@ -82,8 +79,8 @@ All scripts require only a standard **bash** shell and standard Linux utilities.
  
 ### Step 1 — Clone the repository
 ```bash
-git clone https://github.com/com00geek/oss-audit-24BCE10452.git
-cd oss-audit-24BCE10452
+git clone 
+cd oss-audit.24BCE11426
 ```
  
 ### Step 2 — Make scripts executable
@@ -95,22 +92,22 @@ chmod +x *.sh
  
 **Script 1 — System Identity Report**
 ```bash
-./script1_system_identity.sh
+./script1-system_identity.sh
 ```
  
 **Script 2 — FOSS Package Inspector**
 ```bash
 # Check default package (python3)
-./script2_foss_inspector.sh
+./script2-foss_inspector.sh
  
 # Check a specific package
-./script2_foss_inspector.sh git
-./script2_foss_inspector.sh firefox
+./script2-foss_inspector.sh git
+./script2-foss_inspector.sh firefox
 ```
  
 **Script 3 — Disk and Permission Auditor**
 ```bash
-./script3_disk_auditor.sh
+./script3-disk_auditor.sh
 ```
 > Note: Some directory sizes (like `/var/log`) may show `N/A` without `sudo` due to read permissions.
  

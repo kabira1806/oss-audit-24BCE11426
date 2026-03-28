@@ -1,10 +1,10 @@
 #!/bin/bash
 # ============================================================
 # Script 5: Open Source Manifesto Generator
-# Author: Sachin Parmar | Course: Open Source Software
+# Course: Open Source Software
 # Purpose: Generate a personalised open-source philosophy
 #          statement based on user input and save it to a file.
-#
+
 # Alias tip: add to ~/.bashrc to run quickly:
 #   alias manifesto='bash ~/oss_scripts/script5_manifesto.sh'
 # ============================================================
