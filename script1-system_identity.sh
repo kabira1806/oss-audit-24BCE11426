@@ -7,7 +7,7 @@
 # ============================================================
 
 # --- Student and project variables ---
-STUDENT_NAME="Sachin Parmar"          # Replace with your name
+STUDENT_NAME="Divyam Gulgulia"          # Replace with your name
 SOFTWARE_CHOICE="Python"             # Our chosen open-source software
 
 # --- Collect system information using command substitution ---
