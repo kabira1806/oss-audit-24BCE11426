@@ -79,8 +79,8 @@ All scripts require only a standard **bash** shell and standard Linux utilities.
  
 ### Step 1 — Clone the repository
 ```bash
-git clone 
-cd oss-audit.24BCE11426
+git clone https://github.com/kabira1806/oss-audit-24BCE11426
+cd oss-audit-24BCE11426
 ```
  
 ### Step 2 — Make scripts executable
